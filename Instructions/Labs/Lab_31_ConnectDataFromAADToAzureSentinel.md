@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: '31 - Azure Active Directory (Azure AD) から Azure Sentinel へデータを接続する'
     learning path: '04'
@@ -31,7 +31,7 @@ Azure Sentinel で使用できるワークスペースがまだない場合は�
 
 1. **「Azure Sentinel」** を検索して選択します。
 
-1. 「Azure Sentinel ワークスペース」ブレードのメニューで、**「+ 追加」** を選択します。
+1. 「Azure Sentinel ワークスペース」ブレードのメニューで、**「+ 作成」**を選択します。
 
 1. Azure Sentinel ワークスペースが既にある場合は、それを選択して次のタスクに進むことができます。
 
