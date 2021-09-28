@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '27 - Azure AD Identity Governance の設定で外部ユーザーのライフサイクルを管理する'
     learning path: '04'
