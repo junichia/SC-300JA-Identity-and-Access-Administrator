@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '30 - Privileged Identity Management で Azure リソース ロールを割り当てる'
     learning path: '04'
