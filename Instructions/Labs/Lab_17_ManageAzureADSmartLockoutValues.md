@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '17 - Azure AD スマート ロックアウトの値を管理する'
     learning path: '02'
