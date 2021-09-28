@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: '05 - Azure AD にグループを追加する'
     learning path: '01'
@@ -13,7 +13,7 @@ Azure AD 管理者としての職務の一環として、さまざまな種類�
 
 #### 推定時間: 5 分
 
-## Azure Active Directory で Office 365 アプリケーションを作成する
+## Azure Active Directory で Microsoft 365 グループを作成する
 
 1. [https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) を参照します。
 
@@ -29,7 +29,7 @@ Azure AD 管理者としての職務の一環として、さまざまな種類�
     | グループ名| Northwest Sales|
     | メンバーシップの種類| 割り当て済み|
     | 所有者| *自分の管理者アカウントをグループの所有者として割り当てる*|
-    | メンバー| *このグループのメンバーを割り当てる*|
+    | メンバー| **Alex Wilber** と **Bianca Pisani**|
 
     ![「グループの種類」、「グループ名」、「所有者」、「メンバー」が強調表示された「新しいグループ」ブレードが表示されている画面イメージ](./media/lp1-mod2-create-o365-group.png)
 

@@ -29,32 +29,35 @@ Azure Sentinel で使用できるワークスペースがまだない場合は�
 
 1. グローバル管理者アカウントを使用して、[https://portal.azure.com](https://portal.azure.com) にサインインします。
 
-1. **「Azure Sentinel」** を検索して選択します。
+2. **「Azure Sentinel」** を検索して選択します。
 
-1. 「Azure Sentinel ワークスペース」ブレードのメニューで、**「+ 作成」**を選択します。
+3. 「Azure Sentinel ワークスペース」ブレードのメニューで、**「+ 作成」**を選択します。
 
-1. Azure Sentinel ワークスペースが既にある場合は、それを選択して次のタスクに進むことができます。
+4. Azure Sentinel ワークスペースが既にある場合は、それを選択して次のタスクに進むことができます。
 
-1. 「ワークスペースへの Azure Sentinel の追加」ブレードで、**「新しいワークスペースの作成」** を選択します。
+5. 「ワークスペースへの Azure Sentinel の追加」ブレードで、**「新しいワークスペースの作成」** を選択します。
 
-1. 次の情報を使用して、新しい Log Analytics ワークスペースを作成します。
+6. 次の情報を使用して、新しい Log Analytics ワークスペースを作成します。
 
     | 設定| 値|
     | :--- | :--- |
     | サブスクリプション| 現在のサブスクリプションを使用します。|
     | リソース グループ| 既存のリソース グループを使用するか、新しいリソース グループを作成します。|
     | 名前| **Lab-workspace-yourinitialsanddate**</br>ワークスペースはグローバルに一意の値である必要があります。|
-    | 価格レベル| 従量課金制|
+    | 価格レベル| 従量課金制 (Per GB 2018) |
 
-1. 完了したら、新しいワークスペースを選び、**「追加」** を選択して Azure Sentinel にワークスペースを追加します。
+7. 「**Review + create**」を選択します。
+8. **検証に成功**のメッセージが表示されたら、**「作成」** を選択します。
+
+9. 完了したら、新しいワークスペースを選び、**「追加」** を選択して Azure Sentinel にワークスペースを追加します。
 
 ## Azure Active Directory に接続する
 
-Azure Sentinel の組み込みコネクタを使用して、[https://docs.microsoft.com/ja-jp/azure/active-directory/fundamentals/active-directory-whatis](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis) からデータを収集し、それを Azure Sentinel にストリーミングできます。コネクタを使用すると、[https://docs.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/concept-sign-ins](https://docs.microsoft.com/en-us/azure/active-directory/reports-monitoring/concept-sign-ins) と [https://docs.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/concept-audit-logs](https://docs.microsoft.com/en-us/azure/active-directory/reports-monitoring/concept-audit-logs) からストリーミングできます。
+Azure Sentinel の組み込みコネクタを使用して、[https://docs.microsoft.com/ja-jp/azure/active-directory/fundamentals/active-directory-whatis](https://docs.microsoft.com/ja-jp/azure/active-directory/fundamentals/active-directory-whatis) からデータを収集し、それを Azure Sentinel にストリーミングできます。コネクタを使用すると、[https://docs.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/concept-sign-ins](https://docs.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/concept-sign-ins) と [https://docs.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/concept-audit-logs](https://docs.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/concept-audit-logs) からストリーミングできます。
 
 1. Azure Sentinel で、左側のナビゲーション メニューの **「構成」** の下にある **「データ コネクタ」** を選択します。
 
-1. **「データ コネクタ」** リストで、**Azure Active Directory** を選んでから、**「Open connector page」** (コネクタ ページを開く) を選択します。
+1. **「データ コネクタ」** リストで、**Azure Active Directory** を選んでから、**「コネクタ ページを開く」** を選択します。
 
     ![Azure Active Directory コネクタと 「Open connector page」 が強調表示されているデータ コネクタ ブレードを示す画面イメージ](./media/lp4-mod4-sentinel-add-aad-connector.png)
 
