@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '05 - Azure AD にグループを追加する'
     learning path: '01'

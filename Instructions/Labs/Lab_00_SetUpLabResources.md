@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '00 - ラボのセットアップ'
     learning path: '01'
