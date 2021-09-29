@@ -36,12 +36,12 @@ lab:
 9. 「ルール構文の編集」ウィンドウで、**「ルール構文」** ボックスに次の式を入力します。
 
     ```powershell
-    user.objectId -ne null
+    user.objectid -ne null
     ```
 
     **警告** - `user.objectid` では大文字と小文字が区別されます。
 
-10. **「OK」**を選択します。「ルール構文」ボックスにルールが表示されます。
+10. **「OK」** を選択します。「ルール構文」ボックスにルールが表示されます。
 
     ![ルール構文が強調表示されている「動的メンバーシップ ルール」ブレードを表示する画面イメージ](./media/lp1-mod3-dynamic-group-membership-rule.png)
 

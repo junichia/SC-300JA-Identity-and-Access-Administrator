@@ -111,7 +111,7 @@ Azure AD ロールを想定する必要がある場合は、Privileged Identity 
 1. **「スコープの種類」** メニューを選択し、使用可能なオプションを確認します。ここでは、**「ディレクトリ」** というスコープの種類を使用します。
 
 >[!ヒント]
->管理単位のスコープの種類の詳細については、[https://docs.microsoft.com/ja-jp/azure/active-directory/roles/administrative-units](https://docs.microsoft.com/ja-jp/azure/active-directory/roles/admin-units-manage) を参照してください。
+>管理単位のスコープの種類の詳細については、[https://docs.microsoft.com/ja-jp/azure/active-directory/roles/admin-units-manage](https://docs.microsoft.com/ja-jp/azure/active-directory/roles/admin-units-manage) を参照してください。
 
 1. 制限されたスコープを使用せずにロールを割り当てたときと同様に、メンバーを追加し、設定オプションを完了します。ここでは、**「キャンセル」** を選択します。
 
@@ -125,7 +125,7 @@ Azure AD ロールを想定する必要がある場合は、Privileged Identity 
 
     ![「コンプライアンス管理者」の「操作」列に一覧表示されているオプションを表示している画面イメージ](./media/lp4-mod3-pim-edit-role-assignments.png)
 
-1. **「更新」**を選択し、「メンバーシップの設定」ウィンドウで使用可能なオプションを確認します。完了したら、ウィンドウを閉じます。
+1. **「更新」** を選択し、「メンバーシップの設定」ウィンドウで使用可能なオプションを確認します。完了したら、ウィンドウを閉じます。
 
 1. **「削除」** を選択します。
 

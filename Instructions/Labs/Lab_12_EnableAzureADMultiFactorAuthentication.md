@@ -2,7 +2,7 @@
 lab:
     title: '12 - Azure AD の Multi-Factor Authentication を有効にする'
     learning path: '02'
-    module: ‘モジュール 01 - Azure Multi-Factor Authentication の計画と管理を行う'
+    module: 'モジュール 01 - Azure Multi-Factor Authentication の計画と管理を行う'
 ---
 
 # ラボ 12 - Azure AD の Multi-Factor Authentication を有効にする
@@ -19,7 +19,7 @@ lab:
 
 ### タスク 1 - Azure Multi-Factor Authentication オプションを確認する
 
-1. ディレクトリのグローバル管理者アカウントを使用して?[https://portal.azure.com](https://portal.azure.com) を参照し、サインインします。
+1. ディレクトリのグローバル管理者アカウントを使用して? [https://portal.azure.com](https://portal.azure.com) を参照し、サインインします。
 
 2. 検索機能を使用して、**「multi-factor」** を検索します。
 
@@ -69,7 +69,7 @@ lab:
 
     - **「場所」** を選択し、**「すべての場所」** に対して構成します。
 
-7. **「アクセス制御」** で **「許可」** を選択し、**「アクセスを許可する」**が選択されていることを確認します。
+7. **「アクセス制御」** で **「許可」** を選択し、**「アクセスを許可する」** が選択されていることを確認します。
 
 8. **「多要素認証を要求する」** チェック ボックスをオンにして、MFA を適用します。
 
