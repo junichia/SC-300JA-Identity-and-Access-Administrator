@@ -42,7 +42,7 @@ lab:
 
 2. **「テナントのプロパティ」** で、**「国または地域」** を見つけて、情報を確認します。
 
-    **重要** - テナントが作成されると、その時点で国または地域が指定されます。この設定は後で変更できます。
+    **重要** - テナントが作成されると、その時点で国または地域が指定されます。
 
 3. **「プロパティ」** ブレードの **「テナントのプロパティ」** で、**「場所」** を見つけて情報を確認します。
 
@@ -74,11 +74,11 @@ Microsoft では、社内の従業員と外部のゲストがポリシーを確�
 
 1. 従業員のプライバシー情報を追加します｡
 
-- **グローバル プライバシー連絡先** - `AllanD@` **Azure ラボ ドメイン**
+- **グローバル プライバシー連絡先** - **AllanD@<Azure ラボ ドメイン>**
      - Allan Deyoung は、IT 管理者として働く Azure ラボ テナントの組み込みユーザーです。彼をプライバシー連絡先として使用します。
      - この連絡先は､データに関する違反があった場合に Microsoft が問い合わせを行う連絡先でもあります｡問い合わせの記載がない場合､Microsoft はグローバル管理者に問い合わせます｡
 
-- **プライバシーに関する声明の URL** -  `https://github.com/R-C-Stewart/SC-300-Identity-and-Access-Administrator/blob/master/Allfiles/Labs/Lab2/SC-300-Lab_ContosoPrivacySample.pdf`
+- **プライバシーに関する声明の URL** -  **https://github.com/R-C-Stewart/SC-300-Identity-and-Access-Administrator/blob/master/Allfiles/Labs/Lab2/SC-300-Lab_ContosoPrivacySample.pdf**
      - サンプルのプライバシー PDF は、ラボのディレクトリにあります。
      - 組織が社内と外部のゲストの両方のデータのプライバシーをどのように処理するかを説明している組織のドキュメントへのリンクを入力します。
 
