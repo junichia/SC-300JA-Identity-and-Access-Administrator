@@ -30,7 +30,7 @@ lab:
 | **設定** | **値** |
 | :--- | :--- |
 | 名前 | Contoso マーケティング |
-| 技術部連絡先 | `your Global admin account` |
+| 技術部連絡先 | `あなたのテナントのグローバル管理者のID` |
 
 5. **「保存」** を選択してテナント プロパティを更新します。
 
@@ -42,7 +42,7 @@ lab:
 
 2. **「テナントのプロパティ」** で、**「国または地域」** を見つけて、情報を確認します。
 
-    **重要** - テナントが作成されると、その時点で国または地域が指定されます。この設定は後で変更できます。
+    **重要** - テナントが作成されると、その時点で国または地域が指定されます。
 
 3. **「プロパティ」** ブレードの **「テナントのプロパティ」** で、**「場所」** を見つけて情報を確認します。
 
@@ -64,7 +64,7 @@ Azure サブスクリプションには、Azure Active Directory (Azure AD) と�
 
 Microsoft では、社内の従業員と外部のゲストがポリシーを確認できるように、グローバル プライバシー連絡先と組織のプライバシーに関する声明の両方を追加することを強くお勧めします。プライバシーに関する声明はそれぞれの会社に合わせて独自に作成､変更されるため､弁護士に相談することを強くお勧めします｡
 
-   **注** - メモ個人データの表示または削除については、[https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure) を参照してください。GDPR の詳細については、[https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted) を参照してください。
+   **注** - 個人データの表示または削除については、[https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure) を参照してください。GDPR の詳細については、[https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted) を参照してください。
 
 組織のプライバシー情報は、Azure AD の **「プロパティ」** エリアで追加します。「プロパティ」エリアにアクセスしてプライバシー情報を追加するには:
 
@@ -74,15 +74,15 @@ Microsoft では、社内の従業員と外部のゲストがポリシーを確�
 
 1. 従業員のプライバシー情報を追加します｡
 
-- **グローバル プライバシー連絡先** - `AllanD@` **Azure ラボ ドメイン**
+- **グローバル プライバシー連絡先** - **AllanD@<Azure ラボ ドメイン>**
      - Allan Deyoung は、IT 管理者として働く Azure ラボ テナントの組み込みユーザーです。彼をプライバシー連絡先として使用します。
      - この連絡先は､データに関する違反があった場合に Microsoft が問い合わせを行う連絡先でもあります｡問い合わせの記載がない場合､Microsoft はグローバル管理者に問い合わせます｡
 
-- **プライバシーに関する声明の URL** -  `https://github.com/R-C-Stewart/SC-300-Identity-and-Access-Administrator/blob/master/Allfiles/Labs/Lab2/SC-300-Lab_ContosoPrivacySample.pdf`
+- **プライバシーに関する声明の URL** -  **https://github.com/R-C-Stewart/SC-300-Identity-and-Access-Administrator/blob/master/Allfiles/Labs/Lab2/SC-300-Lab_ContosoPrivacySample.pdf**
      - サンプルのプライバシー PDF は、ラボのディレクトリにあります。
      - 組織が社内と外部のゲストの両方のデータのプライバシーをどのように処理するかを説明している組織のドキュメントへのリンクを入力します。
 
-    **重要** - プライバシーに関する独自の声明とプライバシー連絡先のどちらも含めていない場合は、外部のゲストの「アクセス許可の確認」ボックスに、**<組織名\>** は、ユーザーが確認する使用条件へのリンクを提供していませんというテキストが表示されます。たとえば､このメッセージは､B2B コラボレーションでゲスト ユーザーが組織にアクセスするための招待を受けたときに表示されます｡
+    **重要** - プライバシーに関する独自の声明とプライバシー連絡先のどちらも含めていない場合は、外部のゲストの「アクセス許可の確認」ボックスに、「ユーザーが確認する使用条件へのリンクを提供していません」というテキストが表示されます。たとえば､このメッセージは､B2B コラボレーションでゲスト ユーザーが組織にアクセスするための招待を受けたときに表示されます｡
 
     ![B2B Collaboration Review Permissions ボックスとメッセージ](./media/active-directory-no-privacy-statement-or-contact.png)
 
@@ -90,18 +90,17 @@ Microsoft では、社内の従業員と外部のゲストがポリシーを確�
 
 ### タスク 2 - プライバシーに関する声明を確認する
 
-1. Azure ホーム画面 - ダッシュボードに戻ります。
-2. UI の右上隅で、ユーザー名をクリックします。
-3. ドロップダウン メニューから「**アカウントの表示**」を選択します。
+1. UI の右上隅で、ユーザー名をクリックします。
+1. ドロップダウン メニューから「**アカウントを表示**」を選択します。
 
      ##### 新しいブラウザー タブが自動的に開きます。
 
-4. **「設定とプライバシー」** カードで、**「設定とプライバシーを表示 >」** を選択します。
-5. **「プライバシー」** を選択します。
-6. ユーザー**組織の通知** - Contoso マーケティング組織のプライバシーに関する声明の横にある **「表示」** アイテムをクリックします。
+1. **「設定とプライバシー(Settings & Privacy)」** を選択します。
+1. **「プライバシー(Privacy)」** タブを選択します。
+1. **「組織の通知(Organization notice)** - Contoso マーケティング organizational privacy statement の横にある **「表示(View)」** アイテムをクリックします。
 
      ##### リンクしたプライバシー PDF ファイルが表示された新しいブラウザー タブが開きます。
 
-7. サンプルのプライバシーに関する声明を確認します。
-8. PDF が含まれているブラウザー タブを閉じます。
-9. **マイ アカウント**　アイテムを表示しているブラウザー タブを閉じます。
+1. サンプルのプライバシーに関する声明を確認します。
+1. PDF が含まれているブラウザー タブを閉じます。
+1. **マイ アカウント**　アイテムを表示しているブラウザー タブを閉じます。
