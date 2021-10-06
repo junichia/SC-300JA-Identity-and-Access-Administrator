@@ -5,7 +5,7 @@ lab:
     module: 'モジュール 01 - SSO 用エンタープライズ アプリの統合の計画と設計を行う'
 ---
 
-# ラボ 21 - アプリのアクセス管理を実装する
+# ラボ 21 - 新しいカスタム ロールを作成してアプリ登録を管理するためのアクセス権を付与する
 
 ## ラボ シナリオ
 
@@ -36,8 +36,8 @@ lab:
 9. 結果から **「管理」** アクセス許可を選択し、**「次へ」** を選択します。
 
     ```
-       microsoft.directory/servicePrincipals/managePasswordSingleSignOnCredentials  -   Manage password single sign-on credentials or service principals.
-       microsoft.directory/servicePrincipals/synchronizationCredentials/manage    -   Manage application provisioning secrets and credentials.
+       microsoft.directory/servicePrincipals/managePasswordSingleSignOnCredentials  -   サービス プリンシパルのパスワード シングル サインオン資格情報を管理します。
+       microsoft.directory/servicePrincipals/synchronizationCredentials/manage    -   アプリケーション プロビジョニングのシークレットと資格情報を管理します。
     ```
 
     ![検索、アクセス許可の管理、「次へ」が強調表示された「新しいカスタム ロールのアクセス許可」タブを表示している画面イメージ](./media/lp3-mod1-custom-role-permissions.png)
