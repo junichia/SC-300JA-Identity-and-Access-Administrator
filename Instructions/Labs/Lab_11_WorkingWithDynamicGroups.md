@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: '11 - 動的グループを使用する'
     learning path: '01'
@@ -49,11 +49,9 @@ lab:
 
 12. 「新規グループ」ページで **「作成」** を選択して、グループを作成します。
 
-13. メンバーシップが反映されるまでに 5 分程度を要します。
-
 ### タスク 2 - メンバーが追加されたことを確認する
 
-1. **「ホーム」** `> Contoso Marketing > Groups > SC300-myDynamicGroup` をクリックします。
+1. 「**ホーム**」の `Azure Active Directory` をクリックします。
 2. **「Azure Active Directory」** を起動します。
 3. **「管理」** メニューで、**「グループ」** をクリックします。
 4. フィルター ボックスに **「SC300」** と入力すると、新しく作成したグループが一覧表示されます。
@@ -65,7 +63,7 @@ lab:
 ### タスク 3 - 別のルールを試す
 
 1. **ゲスト** ユーザーのみが含まれ得るグループを作成してみます。
-   - (user.objectid -ne null) -and (user.userType -eq "Guest")
+   - (user.objectid -ne null) と (user.userType -eq "Guest")
 
 2. Azure AD ユーザーの**メンバー**のみが含まれるグループを作成してみます。
-   - (user.objectid -ne null) -and (user.userType -eq "Member")
+   - (user.objectid -ne null) と (user.userType -eq "Member")
