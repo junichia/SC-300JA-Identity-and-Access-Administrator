@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '11 - 動的グループを使用する'
     learning path: '01'
