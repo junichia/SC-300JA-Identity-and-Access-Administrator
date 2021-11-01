@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: '29 - Azure AD ロール用に Privileged Identity Management を構成する'
     learning path: '04'
@@ -102,7 +102,7 @@ Azure AD ロールを想定する必要がある場合は、Privileged Identity 
 特定のロールでは、付与されるアクセス許可の範囲を 1 つの管理単位、サービス プリンシパル、またはアプリケーションに制限することができます。この手順は、管理単位のスコープを持つロールを割り当てる場合の例です。
 
 1. MiriamG のブラウザー ウィンドウを閉じてから、管理者アカウントとして Azure portal を開くことを忘れないでください。
-2. 「Privileged Identity Management」ブレードに移動し、左側のナビゲーション メニューで**「Azure AD ロール」**を選択します。
+2. 「Privileged Identity Management」ブレードに移動し、左側のナビゲーション メニューで **「Azure AD ロール」** を選択します。
 3. 「**ロール**」を選択します。
 4. 「ロール」ブレードの上部のメニューで **「+ 割り当ての追加」** を選択します。
 
@@ -113,7 +113,7 @@ Azure AD ロールを想定する必要がある場合は、Privileged Identity 
 >[!ヒント]
 >管理単位のスコープの種類の詳細については、[https://docs.microsoft.com/ja-jp/azure/active-directory/roles/administrative-units](https://docs.microsoft.com/en-us/azure/active-directory/roles/admin-units-manage) を参照してください。
 
-1. 制限されたスコープを使用せずにロールを割り当てたときと同様に、メンバーを追加し、設定オプションを完了します。ここでは、**「キャンセル」**を選択します。
+1. 制限されたスコープを使用せずにロールを割り当てたときと同様に、メンバーを追加し、設定オプションを完了します。ここでは、**「キャンセル」** を選択します。
 
 ## 既存のロールの割り当てを更新または削除する
 
