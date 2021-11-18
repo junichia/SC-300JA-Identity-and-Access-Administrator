@@ -80,7 +80,7 @@ lab:
     | ユーザー名 | DeliaD@ <<自分の Azure ドメイン>>|
     | パスワード| 管理者と同じです|
 
-4. Office.com の Web サイトに接続しても、ライセンスがないことを示すメッセージは表示されません。
+4. Office.com Web サイトに接続すると、ライセンスに関するメッセージは表示されません。左側にあるすべての Office アプリケーションを利用できます。
 
     ![画面イメージ: Delia Dennis がログインしている Office.com の Web サイト。ライセンスが割り当てられているため、Office アプリケーションが利用できます。](./media/delia-office-license.png)
     
